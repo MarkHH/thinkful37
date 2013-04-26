@@ -1,0 +1,245 @@
+<div id="whoweare-numbers">
+
+            <div id="left-collumn">
+
+                <div class="collumn-top">
+                <h3>1</h3>
+               <h4>Useful is forever</h4>
+                <p>Bells and whistles wear off, but usefulness never does. We build useful software that does just what you need and nothing you don't.</p>
+            </div>
+
+            <div class="numbers">
+            <h3>2</h3>
+            <h4>Great service is everything</h4>
+            <p>We're famous for fast and friendly customer service. We work hard to make sure we live up to that reputation every day. See how our customers rate our service.</p>
+            </div>
+
+            <div class="numbers">
+            <h3>3</h3>
+            <h4>Clarity is king</h4>
+            <p>Buzzwords, lingo, and sensationalized sales-and-marketing-speak have no place at 37signals. We communicate clearly and honestly.</p>
+            </div>
+
+            <div class="numbers">
+            <h3>4</h3>
+            <h4>Our customers are our investors</h4>
+            <p>Our customers fund our daily operations by paying for our products. We answer to them - not investors, the stock market, or a board of directors.</p>
+            </div>
+                 
+
+            </div>
+            
+            <div id="five-eight">
+
+                <div class="collumn-top">
+                <h3>5</h3>
+               <h4>Useful is forever</h4>
+                <p>Bells and whistles wear off, but usefulness never does. We build useful software that does just what you need and nothing you don’t.</p>
+            </div>
+            
+            <div class="numbers">
+            <h3>6</h3>
+            <h4>Great service is everything</h4>
+            <p>We're famous for fast and friendly customer service. We work hard to make sure we live up to that reputation every day. See how our customers rate our service.</p>
+            </div>
+
+            <div class="numbers">
+            <h3>7</h3>
+            <h4>Clarity is king</h4>
+            <p>Buzzwords, lingo, and sensationalized sales-and-marketing-speak have no place at 37signals. We communicate clearly and honestly.</p>
+            </div>
+
+            <div class="numbers">
+            <h3>8</h3>
+            <h4>Our customers are our investors</h4>
+            <p>Our customers fund our daily operations by paying for our products. We answer to them - not investors, the stock market, or a board of directors.</p>
+            </div>
+                 
+
+            </div>        
+            
+            </div>    
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+#left-collumn {
+    width: 400px;
+}
+
+.collumn-top h3 {
+    font-size: 58px;
+    color: #ccc;
+    float: left;
+}
+
+.collumn-top h4 {
+    font-size: 16px;
+    color: #cc0000;
+    font-weight: 800px;
+    padding-top: 10px;
+}
+
+.collumn-top p {
+    font-size: 14px;
+    color: #222;
+}
+
+.numbers h3 {
+    font-size: 58px;
+    color: #ccc;
+    float: left;
+
+}
+
+.numbers h4 {
+    font-size: 16px;
+    color: #cc0000;
+    font-weight: 800px;
+}
+
+.numbers p {
+    font-size: 14px;
+    color: #222;
+}
+
+#five-eight {
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="columns">
+
+            <div id="column1">
+                <ol>
+                    <li>
+                        <h3>HEADLINE</h3>
+                            <p>body body bbody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodyody body body</p>
+                    </li>        
+                    <li>
+                        <h3>HEADLINE</h3>
+                            <p>body body body body body</p>
+                    </li>                
+                    <li>
+                        <h3>HEADLINE</h3>
+                            <p>body body body body body</p>
+                    </li>
+                    <li>
+                        <h3>HEADLINE</h3>
+                            <p>body body body body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body</p>
+                    </li>
+                                               
+            </div>   
+             <div id="column2">
+                <ol>
+                    <li>
+                        <h3>HEADLINE</h3>
+                            <p>body body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body bodybody body body body body</p>
+                    </li>        
+                    <li>
+                        <h3>HEADLINE</h3>
+                            <p>body body body body body</p>
+                    </li>                
+                    <li>
+                        <h3>HEADLINE</h3>
+                            <p>body body body body body</p>
+                    </li>
+                    <li>
+                        <h3>HEADLINE</h3>
+                            <p>body body body body body</p>
+                    </li>
+                                               
+            </div>   
+         </div>            
+
+
+
+
+
+
+
+
+
+
+#colunns {
+    width: 900px;
+}
+
+#column1 {
+    width: 300px;
+}
+
+ol {
+    list-style-type: none;
+    margin-left: 0;
+
+}
+
+ol > li:before {
+  content: counter(customlistcounter) " ";
+  float: left;
+}
+
+ol.custom:first-child {
+  counter-reset: customlistcounter;
+}
+
+
+#column1 li {
+    font-size: 58;
+    color: blue;
+    counter-increment: customlistcounter;
+
+}
+
+
+#column1 h3 {
+    font-size: 16px;
+    color: red;
+}
+
+#column1 p {
+    font-size: 14px;
+    color: black;
+}
+
+
+#column2 li {
+    font-size: 58;
+    color: blue;
+    counter-increment: customlistcounter;
+
+}
+
+
+#column2 h3 {
+    font-size: 16px;
+    color: red;
+}
+
+#column2 p {
+    font-size: 14px;
+    color: black;
+}
+         

@@ -1,0 +1,419 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+#happy {
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+	color: #999;
+	font-size: 12px;
+}
+
+#nav {
+	min-height: 30px;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+
+#nav li {
+	float: right;
+	font-size: 12px;
+	margin: 15px 7px 15px 15px;
+	font-family: arial,sans-serif;
+	margin-top: 30px;
+}
+
+#nav li:first-child {
+	margin-right: 40px;
+}
+
+#nav ul li a {
+	color: #336699;
+	text-decoration: none;
+}
+
+#nav li a:hover {
+	color: white;
+}
+
+
+
+#signals {
+	text-align: center;
+
+}
+
+#container {
+	min-width: 900px;
+	width: 900px;	
+/* 	display: block; */
+	margin: auto;
+}
+
+#main {
+	text-align: center;
+	position: relative;
+	top: 10px;
+}
+
+#main h1 {
+	font-size: 58px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+#main h3 {
+	font-size: 20px;
+	margin-bottom: 30px;
+
+}
+
+#appscontainer {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.apps:first-child {
+	margin-left: 145px;
+}
+
+.apps {
+	float: left;
+	width: 160px;
+	height: 220px;
+	background-color: #efefef;
+	border: solid #e8e8e8;
+	border-width: 1px;
+	margin: 0 20px 50px 20px;
+	padding: 20px 10px 10px;	
+	line-height: 1.3em;
+
+}
+
+
+.apps img {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.apps a {
+	font-size: 21px;
+	display: inline-block;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #369;
+}
+
+.apps h6 {
+	font-size: 15px;
+	font-family: arial,sans-serif;
+	font-weight: 800;	
+	color: #cc0000;
+	margin-top: 10px;
+}
+
+.apps p {
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	margin-top: 10px;
+}
+
+.separation-hr {
+	clear: both;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 0;
+	background: white url('http://37signals.com/images/img-hr.png') 
+	no-repeat scroll 50% 50%;
+	color: transparent;
+	height: 12px;
+}
+
+
+h2 {
+	font-size: 48px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+#customers p {
+	font-size: 22px;
+	color: #666;
+	margin-bottom: 10px;	
+
+}
+
+#worldbadge {
+	float: right;
+	margin-right: 10px;
+}
+
+#customers img {
+	margin-left: 30px;
+}
+
+#arrow {
+	position: relative;
+	right: 30px;
+	bottom: 100px;
+}
+
+#companies {
+	margin-top: 30px;
+}
+
+
+#left {
+	width: 400px;
+	float: left;
+	margin-left: 30px;
+}
+
+#right {
+	width: 400px;
+	float: left;
+	margin-left: 20px;
+}
+
+.numbers {
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.numbers h3 {
+    font-size: 58px;
+    color: #ccc;
+    float: left;
+    margin-right: 10px;    
+
+}
+
+.numbers h4 {
+    font-size: 18px;
+    color: #cc0000;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+
+}
+
+.numbers p {
+    font-size: 14px;
+    color: #222;
+    margin: 0 0 0 40px;
+}
+
+.numbers a {
+    color: #369;
+	text-decoration: none;
+}
+
+.numbers a:hover {
+    color: blue;
+	text-decoration: underline;
+}
+
+
+#arrow-rework {
+	position: relative;
+	bottom: 180px;
+	left: 800px;
+}
+
+#crumple {
+	position: relative;
+	bottom: 125px;
+	left: 770px;
+}
+
+#quotes {
+	margin-top: -110px;
+}
+
+#quotes img {
+	float: left;
+}
+
+blockquote {
+	text-align:center;
+	font-size:22px;
+	color: #888;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.citation {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+#features {
+	text-align: center;
+	overflow: hidden;
+}
+
+
+.apps2:first-child {
+	margin-left: 160px;
+}
+
+.apps2 {
+	float: left;
+	width: 160px;
+	height: 220px;
+	margin: 0 10px 0px 10px;
+	padding: 20px 10px 10px;	
+	line-height: 1.3em;
+}
+
+.apps2 img {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.apps2 a {
+	font-size: 21px;
+	display: inline-block;
+	margin-top: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.apps2 a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #369;
+}
+
+.apps2 h6 {
+	font-size: 15px;
+	font-family: arial,sans-serif;
+	font-weight: 800;	
+	color: #cc0000;
+	margin-top: 10px;
+}
+
+.apps2 p {
+	font-size: 12px;
+	font-family: arial,sans-serif;
+	margin-top: 10px;
+	color:  #666;
+	line-height: 1.4em
+}
+
+#servicescol {
+	width: 300px;
+	text-align: center;
+	margin-left: 150px;
+	float: left;
+}	
+
+.services h6 {
+	font-size: 15px;
+	font-family: arial,sans-serif;
+	font-weight: 800;	
+	color: #cc0000;
+	margin-top: 30px;
+}
+
+.services-hr {
+	margin: 10px 0 10px 0;
+	color: #E8E8E8;
+}
+
+.services a {
+	font-size: 22px;
+	font-family: arial,sans-serif;
+	font-weight: bold;	
+	color: #222;
+	text-decoration: none;
+}
+
+.services a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #369;
+}
+
+.services p {
+	color: #666;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#servicesco2 {
+	width: 300px;
+	text-align: center;
+	margin-right: 110px;
+	float: left;
+	margin-left:30px;
+}	
+
+#footer {
+
+}
+
+#footer ul {
+	list-style: none;
+	text-align: center;
+	margin-top: 40px;
+	}
+
+#footer li {
+	float: right;	
+	margin: 10px 10px 10px 10px;
+	color: #999;
+	font-size: 12px;
+}
+
+#footer li:first-child {
+	margin-right: 400px;
+}
+
+#footer a {
+	color: #336699;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+	color: #369;
+}
+
+
+
+
